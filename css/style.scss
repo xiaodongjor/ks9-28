@@ -33,7 +33,7 @@ html {
  	align-items:center;
  }
  .wrap{
-  /* .header{
+   .header{
     display:flex;
     height: .4rem;
     justify-content: space-around;
@@ -45,8 +45,8 @@ html {
         border-bottom: 3px solid #00f;
       }
     }
-  } */
-    .main{
+  } 
+     .main{
       section{
         width: 90%;
         margin: 15px auto;
@@ -78,12 +78,12 @@ html {
                   -webkit-background-size: cover;
                   background-size: cover;
                   height: 12px;
-                  background-repeat: no-repeat;
                   padding: 2px;
                 }
                 .dateTo{
                   background:url(../images/b.png);
                   width: 12px;
+                  background-repeat: no-repeat;
                   background-repeat: no-repeat;
                   background-position: 0 -16px;
                   -webkit-background-size: cover;
@@ -95,7 +95,7 @@ html {
               .limitCon{
                 color: #30B881;
               }
-
+    
           }
           li:first-child{
             background: #FD6060;
@@ -105,9 +105,9 @@ html {
           li:nth-child(2){
             color: #ccc;
             height: .7rem;
-
+    
           }
         }
       }
-    }
+    } 
  }

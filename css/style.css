@@ -13,7 +13,7 @@ html, body, .wrap {
 html {
   user-selector: none; }
 
-.wrap .main section ul li div {
+.wrap .header span, .wrap .main section ul li div {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -23,64 +23,59 @@ html {
   justify-content: flex-end;
   align-items: center; }
 
-.wrap {
-  /* .header{
-    display:flex;
-    height: .4rem;
-    justify-content: space-around;
-    border-bottom: 10px solid #eee;
-    span{
-      @extend %qjz;
-      width: 20%;
-      &:hover{
-        border-bottom: 3px solid #00f;
-      }
-    }
-  } */ }
-  .wrap .main section {
-    width: 90%;
-    margin: 15px auto;
-    box-shadow: 0 0 3px #000;
-    border-radius: 5px; }
-    .wrap .main section ul li {
-      display: flex;
-      flex-wrap: wrap; }
-      .wrap .main section ul li small {
-        flex: 1;
-        text-align: center;
-        font-size: .3rem; }
-      .wrap .main section ul li big {
-        flex: 1.3;
-        font-size: .7rem; }
-      .wrap .main section ul li p {
-        flex: 4; }
-      .wrap .main section ul li div {
-        font-size: .12rem; }
-        .wrap .main section ul li div .limit {
-          background: url(../images/b.png);
-          width: 12px;
-          -webkit-background-size: cover;
-          background-size: cover;
-          height: 12px;
-          background-repeat: no-repeat;
-          padding: 2px; }
-        .wrap .main section ul li div .dateTo {
-          background: url(../images/b.png);
-          width: 12px;
-          background-repeat: no-repeat;
-          background-position: 0 -16px;
-          -webkit-background-size: cover;
-          background-size: cover;
-          height: 12px;
-          padding: 2px; }
-      .wrap .main section ul li .limitCon {
-        color: #30B881; }
-    .wrap .main section ul li:first-child {
-      background: #FD6060;
-      height: 1rem;
-      color: #fff; }
-    .wrap .main section ul li:nth-child(2) {
-      color: #ccc;
-      height: .7rem; }
+.wrap .header {
+  display: flex;
+  height: .4rem;
+  justify-content: space-around;
+  border-bottom: 10px solid #eee; }
+  .wrap .header span {
+    width: 20%; }
+    .wrap .header span:hover {
+      border-bottom: 3px solid #00f; }
+.wrap .main section {
+  width: 90%;
+  margin: 15px auto;
+  box-shadow: 0 0 3px #000;
+  border-radius: 5px; }
+  .wrap .main section ul li {
+    display: flex;
+    flex-wrap: wrap; }
+    .wrap .main section ul li small {
+      flex: 1;
+      text-align: center;
+      font-size: .3rem; }
+    .wrap .main section ul li big {
+      flex: 1.3;
+      font-size: .7rem; }
+    .wrap .main section ul li p {
+      flex: 4; }
+    .wrap .main section ul li div {
+      font-size: .12rem; }
+      .wrap .main section ul li div .limit {
+        background: url(../images/b.png);
+        width: 12px;
+        -webkit-background-size: cover;
+        background-size: cover;
+        height: 12px;
+        padding: 2px; }
+      .wrap .main section ul li div .dateTo {
+        background: url(../images/b.png);
+        width: 12px;
+        background-repeat: no-repeat;
+        background-repeat: no-repeat;
+        background-position: 0 -16px;
+        -webkit-background-size: cover;
+        background-size: cover;
+        height: 12px;
+        padding: 2px; }
+    .wrap .main section ul li .limitCon {
+      color: #30B881; }
+  .wrap .main section ul li:first-child {
+    background: #FD6060;
+    height: 1rem;
+    color: #fff; }
+  .wrap .main section ul li:nth-child(2) {
+    color: #ccc;
+    height: .7rem; }
 
 /*# sourceMappingURL=style.css.map */
